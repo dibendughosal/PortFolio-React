@@ -15,7 +15,7 @@ const HeroSection = () => {
         <h1>Hey! Dibendu Ghosal</h1>
         <TypingEffect/>
         <div>
-            I'm a <span>Software Engineer</span> and here is my portfolio website. Here you'll know about my journey as a software Engineer.    
+            I'm a <span>Software Engineer</span> and it is my portfolio website. Here you'll know about my journey as a software Engineer.    
         </div>
         <button>Hire Me</button>
       </div>
