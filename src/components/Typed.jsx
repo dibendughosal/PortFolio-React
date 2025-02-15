@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import Typed from "Typed.js";
+import Typed from "typed.js";
 
 const TypingEffect = () => {
   const typedElement = useRef(null);
