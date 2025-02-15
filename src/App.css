@@ -47,3 +47,72 @@
 #btn-bottom {
   display: none;
 }
+.imgAnimation{
+  animation: scaleImg 5s linear infinite;
+  filter: grayscale(1);
+}
+
+@keyframes scaleImg {
+  0% {
+    transform: scale(1);
+    filter: grayscale(0);
+  }
+  50% {
+    transform: scale(1.1);
+    filter: grayscale(1);
+    box-shadow: 3px 3px 10px black;
+  }
+  100% {
+    transform: scale(1);
+    filter: grayscale(0);
+  }
+}
+.cubeAnm{
+  animation: cubeAnimation 3s linear infinite;
+}
+
+@keyframes cubeAnimation {
+  0% {
+    transform: rotateY(0deg) translateY(0);
+  }
+  50% {
+    transform: rotateY(180deg) translateY(-12px);
+  }
+  100% {
+    transform: rotateY(360deg) translateY(0);
+  }
+}
+.circleAnm{
+  animation: circleAnimation 6s linear infinite;
+}
+
+@keyframes circleAnimation {
+  50% {
+    left: 5%;
+    bottom: 10%;
+  }
+  
+}
+.zigzagAnm{
+  animation: zigzagAnimation 5s linear infinite;
+}
+
+@keyframes zigzagAnimation {
+
+  50% {
+    top:2%;
+    left: 5%;
+  }
+
+}
+
+.blobVct{
+  animation: blobVctAnimation 5s linear infinite;
+}
+
+@keyframes blobVctAnimation {
+  50% {
+    top:3%;
+    left: 48%;
+  }
+}
