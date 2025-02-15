@@ -7,6 +7,11 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  resolve: {
+    alias: {
+      "typed.js": "typed.js",
+    },
+  },
   build: {
     rollupOptions: {
       external: ["typed.js"]
