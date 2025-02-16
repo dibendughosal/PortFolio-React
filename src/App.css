@@ -153,3 +153,13 @@
 .project:hover::before {
   transform: scaleX(1);
 }
+
+.numberRight {
+  top: -45px;
+  right: -40px;
+}
+
+.numberLeft {
+  top: -45px;
+  left: -40px;
+}

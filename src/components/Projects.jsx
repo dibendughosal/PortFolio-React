@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="max-w-[1200px] mx-auto py-[3rem] flex flex-col gap-30">
             {/* Project Cards */}
             <div className="h-[550px] w-[90%] group project bg-cover bg-no-repeat bg-[url('./Project1.png')] relative">
-                <div className='font-semibold absolute -top-[45px] z-10 -right-10 text-white text-[200px] opacity-0 group-hover:opacity-100 '>01</div>
+                <div className='font-semibold absolute numberRight z-10 text-white text-[200px] opacity-0 group-hover:opacity-100 '>01</div>
                 {/* content(projects) */}
                 <div>
                     {/* Skills Container */}
@@ -45,8 +45,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-[550px] w-[90%] project bg-cover bg-no-repeat bg-[url('./Project2.png')]">
-                <div>02</div>
+            <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project2.png')]">
+                <div className='font-semibold absolute numberLeft z-10 text-white text-[200px] opacity-0 group-hover:opacity-100'>02</div>
                 {/* content(projects) */}
                 <div>
                     {/* Skills Container */}
@@ -73,8 +73,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-[550px] w-[90%] project bg-cover bg-no-repeat bg-[url('./Project3.png')]">
-                <div>03</div>
+            <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project3.png')]">
+                <div className="font-semibold absolute numberRight z-10 text-white text-[200px] opacity-0 group-hover:opacity-100" >03</div>
                 {/* content(projects) */}
                 <div>
                     {/* Skills Container */}
@@ -102,7 +102,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="h-[550px] w-[90%] project bg-cover bg-no-repeat bg-[url('./Project4.png')]">
-                <div>04</div>
+                <div className="font-semibold absolute numberLeft z-10 text-white text-[200px] opacity-0 group-hover:opacity-100">04</div>
                 {/* content(projects) */}
                 <div>
                     {/* Skills Container */}
