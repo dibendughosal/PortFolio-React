@@ -3,7 +3,7 @@ import gIMG from '../assets/images/userAsset/G_cleaned.png';
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-between pt-4 font-serif ">
+        <div className="flex items-center justify-between pt-4 font-serif w-[1200px] mx-auto">
             <div className='flex w-[200px] items-center relative px-4'>          
                 <img src={dImg} alt="D Letter" className='w-[80px] absolute'/>
                 <img src={gIMG} alt="G Letter" className='w-20 ml-10' />             

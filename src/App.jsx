@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='w-screen h-screen box-border font-serif overflow-x-hidden'>
-      <div className='w-[1200px] mx-auto'>
+      <div className='w-full mx-auto'>
         <Header/>
         <Body/>
         <Footer/>
