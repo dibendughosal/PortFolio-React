@@ -163,3 +163,12 @@
   top: -45px;
   left: -40px;
 }
+.SkillWidth{
+  @apply w-[40px]
+}
+.btn-pink:hover{
+  border: none;
+}
+.icon{
+  @apply hover:text-[#01b7d6] cursor-pointer  text-[35px]
+}

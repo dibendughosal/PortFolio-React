@@ -19,28 +19,29 @@ const Projects = () => {
         <div className="max-w-[1200px] mx-auto py-[3rem] flex flex-col gap-30">
             {/* Project Cards */}
             <div className="h-[550px] w-[90%] group project bg-cover bg-no-repeat bg-[url('./Project1.png')] relative">
-                <div className='font-semibold absolute numberRight z-10 text-white text-[200px] opacity-0 group-hover:opacity-100 '>01</div>
+                <div className='font-semibold absolute numberRight z-10 text-white text-[200px] opacity-0 group-hover:opacity-100 right-[10%]'>01</div>
                 {/* content(projects) */}
-                <div>
+                <div className='absolute flex flex-col text-white p-8 bottom-[20%]
+                z-10 gap-[1em] transition-all duration-400 left-[10%]'>
                     {/* Skills Container */}
-                    <div>
-                        <img src={html} alt="" />
-                        <img src={css} alt="" />
-                        <img src={js} alt="" />
-                        <img src={eXpress} alt="" />
-                        <img src={nextjs} alt="" />
-                        <img src={tailwind} alt="" />
-                        <img src={NodeJS} alt="" />
-                        <img src={mongoDB} alt="" />
-                        <img src={redux} alt="" />
-                        <img src={Vercel} alt="" />
+                    <div className='flex w-[60%] gap-2.5 flex-wrap'>
+                        <img src={html} alt="" className='SkillWidth' />
+                        <img src={css} alt="" className='SkillWidth'/>
+                        <img src={js} alt="" className='SkillWidth'/>
+                        <img src={eXpress} alt="" className='SkillWidth'/>
+                        <img src={nextjs} alt="" className='SkillWidth'/>
+                        <img src={tailwind} alt="" className='SkillWidth'/>
+                        <img src={NodeJS} alt="" className='SkillWidth'/>
+                        <img src={mongoDB} alt="" className='SkillWidth'/>
+                        <img src={redux} alt="" className='SkillWidth'/>
+                        <img src={Vercel} alt="" className='SkillWidth'/>
                     </div>
-                    <h1>Tint & Orange</h1>
-                    <p>It is a car modification company which provide your car from scratch </p>
-                    <div>
+                    <h1 className='text-[50px] font-bold leading-[48px]'>Tint & Orange</h1>
+                    <p className='w-[70%] text-[16px] italic'>Its is a car modification copany which provide you sheets to protect your car from scratch</p>
+                    <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
                         <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin icon"></i></a>
                         <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
                     </div>
                 </div>
@@ -48,26 +49,24 @@ const Projects = () => {
             <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project2.png')]">
                 <div className='font-semibold absolute numberLeft z-10 text-white text-[200px] opacity-0 group-hover:opacity-100'>02</div>
                 {/* content(projects) */}
-                <div>
+                <div className='absolute flex flex-col text-white p-8 bottom-[20%]
+                z-10 gap-[1em] transition-all duration-400 right-[10%]'>
                     {/* Skills Container */}
-                    <div>
-                        <img src={html} alt="" />
-                        <img src={css} alt="" />
-                        <img src={js} alt="" />
-                        <img src={eXpress} alt="" />
-                        <img src={nextjs} alt="" />
-                        <img src={tailwind} alt="" />
-                        <img src={NodeJS} alt="" />
-                        <img src={mongoDB} alt="" />
-                        <img src={redux} alt="" />
-                        <img src={Vercel} alt="" />
+                    <div className='flex w-[60%] gap-2.5 flex-wrap'>
+                        <img src={html} alt="" className='SkillWidth'/>
+                        <img src={css} alt="" className='SkillWidth'/>
+                        <img src={js} alt="" className='SkillWidth'/>                     
+                        <img src={nextjs} alt="" className='SkillWidth'/>
+                        <img src={tailwind} alt="" className='SkillWidth'/>  
+                        <img src={redux} alt="" className='SkillWidth'/>
+                        <img src={Vercel} alt="" className='SkillWidth'/>
                     </div>
-                    <h1>Breaking Copyrights</h1>
-                    <p>A platform to download copyrights free youtube music</p>
-                    <div>
+                    <h1 className='text-[50px] font-bold leading-[48px]'>Breaking Copyrights</h1>
+                    <p className='w-[70%] text-[16px] italic'>A platform to download copyrights free youtube music</p>
+                    <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
                         <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin icon"></i></a>
                         <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
                         
                     </div>
@@ -101,22 +100,22 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-[550px] w-[90%] project bg-cover bg-no-repeat bg-[url('./Project4.png')]">
+            <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project4.png')]">
                 <div className="font-semibold absolute numberLeft z-10 text-white text-[200px] opacity-0 group-hover:opacity-100">04</div>
                 {/* content(projects) */}
                 <div>
                     {/* Skills Container */}
-                    <div>
-                        <img src={html} alt="" />
-                        <img src={css} alt="" />
-                        <img src={js} alt="" />
-                        <img src={eXpress} alt="" />
-                        <img src={nextjs} alt="" />
-                        <img src={tailwind} alt="" />
-                        <img src={NodeJS} alt="" />
-                        <img src={mongoDB} alt="" />
-                        <img src={redux} alt="" />
-                        <img src={Vercel} alt="" />
+                    <div className='flex '>
+                        <img src={html} alt="" className='SkillWidth'/>
+                        <img src={css} alt="" className='SkillWidth'/>
+                        <img src={js} alt="" className='SkillWidth'/>
+                        <img src={eXpress} alt="" className='SkillWidth'/>
+                        <img src={nextjs} alt="" className='SkillWidth'/>
+                        <img src={tailwind} alt="" className='SkillWidth'/>
+                        <img src={NodeJS} alt="" className='SkillWidth'/>
+                        <img src={mongoDB} alt="" className='SkillWidth'/>
+                        <img src={redux} alt="" className='SkillWidth'/>
+                        <img src={Vercel} alt="" className='SkillWidth'/>
                     </div>
                     <h1>Granit</h1>
                     <p>A architectural website to plan your building or home (Hebrew Language)</p>
