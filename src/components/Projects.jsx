@@ -75,26 +75,23 @@ const Projects = () => {
             <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project3.png')]">
                 <div className="font-semibold absolute numberRight z-10 text-white text-[200px] opacity-0 group-hover:opacity-100" >03</div>
                 {/* content(projects) */}
-                <div>
+                <div className='absolute flex flex-col text-white p-8 bottom-[20%]
+                z-10 gap-[1em] transition-all duration-400 left-[10%]'>
                     {/* Skills Container */}
-                    <div>
-                        <img src={html} alt="" />
-                        <img src={css} alt="" />
-                        <img src={js} alt="" />
-                        <img src={eXpress} alt="" />
-                        <img src={nextjs} alt="" />
-                        <img src={tailwind} alt="" />
-                        <img src={NodeJS} alt="" />
-                        <img src={mongoDB} alt="" />
-                        <img src={redux} alt="" />
-                        <img src={Vercel} alt="" />
+                    <div className='flex w-[60%] gap-2.5 flex-wrap'>
+                        <img src={html} alt="" className='SkillWidth'/>
+                        <img src={css} alt="" className='SkillWidth'/>
+                        <img src={js} alt="" className='SkillWidth'/>    
+                        <img src={nextjs} alt="" className='SkillWidth'/>
+                        <img src={tailwind} alt="" className='SkillWidth'/>
+                        <img src={Vercel} alt="" className='SkillWidth'/>
                     </div>
-                    <h1>Isha Tattva</h1>
-                    <p>A Website for interior designer to showcase her works and samples</p>
-                    <div>
+                    <h1 className='text-[50px] font-bold leading-[48px]'>Isha Tattva</h1>
+                    <p className='w-[70%] text-[16px] italic'>A Website for interior designer to showcase her works and samples</p>
+                    <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
                         <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin icon"></i></a>
                         <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
                         
                     </div>
