@@ -1,5 +1,6 @@
 import dImg from '../assets/images/userAsset/Letter_D_Cleaned.png';
 import gIMG from '../assets/images/userAsset/G_cleaned.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -10,11 +11,11 @@ const Header = () => {
             </div>
             <div className='flex justify-between'>
                 <ul className='flex justify-between gap-4 text-[20px] font-[500] px-4 '>
-                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><a href='#'>About</a></li>
-                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><a href='#'>Services</a></li>
-                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><a href='#'>Gallery</a></li>
-                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><a href='#'>Contact</a></li>
-                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]' ><a href='#'>Blog</a></li>
+                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><Link to="/about">About</Link></li>
+                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><Link to="/projects">Services</Link></li>
+                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><Link to='/gallery'>Gallery</Link></li>
+                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]'><Link to='/contact'>Contact</Link></li>
+                    <li className='hover:text-[#4e45d5] hover:font-[800] transition duration-[0.5s] hover:scale-[1.02]' ><Link to='/blog'>Blog</Link></li>
                 </ul>
             </div>
         </div>

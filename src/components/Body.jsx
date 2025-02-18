@@ -1,3 +1,4 @@
+import Gallery from "./Gallery"
 import HeroSection from "./HeroSection"
 import Projects from "./Projects"
 import Skills from "./Skills"
@@ -7,6 +8,7 @@ const Body = () => {
       <HeroSection/>
       <Projects/>
       <Skills/>
+      <Gallery/>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import zigzagImg from '../assets/images/userAsset/zigzags.png';
 import circleImg from '../assets/images/userAsset/circle.png';
 import cubeImg from '../assets/images/userAsset/cube.png'
 import TypingEffect from './Typed';
-
+import '../App.css';
 const HeroSection = () => {
   return (
     <div className="h-[80%] w-[1200px] mx-auto flex justify-center items-center gap-[80px] my-[79px] pb-[8rem] relative">
