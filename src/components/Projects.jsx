@@ -40,9 +40,9 @@ const Projects = () => {
                     <p className='w-[70%] text-[16px] italic'>Its is a car modification copany which provide you sheets to protect your car from scratch</p>
                     <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
-                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
+                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github iconBlk"></i></a>
                         <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin icon"></i></a>
-                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
+                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link greenIcon"></i></a>
                     </div>
                 </div>
             </div>
@@ -65,9 +65,9 @@ const Projects = () => {
                     <p className='w-[70%] text-[16px] italic'>A platform to download copyrights free youtube music</p>
                     <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
-                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin icon"></i></a>
-                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
+                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github iconBlk"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link greenIcon"></i></a>
                         
                     </div>
                 </div>
@@ -90,9 +90,9 @@ const Projects = () => {
                     <p className='w-[70%] text-[16px] italic'>A Website for interior designer to showcase her works and samples</p>
                     <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
-                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
+                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github iconBlk"></i></a>
                         <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin icon"></i></a>
-                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
+                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon greenIcon"></i></a>
                         
                     </div>
                 </div>
@@ -119,9 +119,9 @@ const Projects = () => {
                     <p className='w-[70%] text-[16px] italic'>A architectural website to plan your building or home (Hebrew Language)</p>
                     <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
-                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin"></i></a>
-                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
+                        <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github iconBlk"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link greenIcon"></i></a>
                         
                     </div>
                 </div>

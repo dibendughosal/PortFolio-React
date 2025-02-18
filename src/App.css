@@ -166,9 +166,18 @@
 .SkillWidth{
   @apply w-[40px]
 }
+.SkillIcon{
+  @apply w-[100px] h-[100px]
+}
 .btn-pink:hover{
   border: none;
 }
 .icon{
   @apply hover:text-[#01b7d6] cursor-pointer  text-[35px]
+}
+.iconBlk{
+  @apply hover:text-[#000000] cursor-pointer  text-[35px]
+}
+.greenIcon{
+  @apply hover:text-[#53c88c] cursor-pointer  text-[35px]
 }
