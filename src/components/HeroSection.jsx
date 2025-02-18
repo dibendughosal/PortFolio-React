@@ -8,7 +8,7 @@ import TypingEffect from './Typed';
 
 const HeroSection = () => {
   return (
-    <div className="h-[80%] w-[1200px] mx-auto flex justify-center items-center gap-[80px] my-[64px] pb-[8rem] relative">
+    <div className="h-[80%] w-[1200px] mx-auto flex justify-center items-center gap-[80px] my-[79px] pb-[8rem] relative">
         {/* Left Part */}
       <div className='flex flex-col justify-center gap-[2rem]'>
         <h1 className='text-[#343d68] font-[500] text-[35px]'>Hey! Dibendu Ghosal</h1>

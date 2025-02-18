@@ -13,16 +13,16 @@ import Vercel from "../assets/images/stack/Vercel.svg"
 const Projects = () => {
     
   return (
-    <div className="bg-[rgb(231,211,231)] mt-[3rem]">
+    <div className="bg-[#e7e7e7] -mt-6">
         <h1 className="text-[var(--bgOrange)] text-center font-bold text-[90px] pt-8">Projects</h1>
         {/* Project Container */}
         <div className="max-w-[1200px] mx-auto py-[3rem] flex flex-col gap-30">
             {/* Project Cards */}
-            <div className="h-[550px] w-[90%] group project bg-cover bg-no-repeat bg-[url('./Project1.png')] relative">
+            <div className="h-[550px] w-[90%] group project bg-cover bg-no-repeat bg-[url('./Project1.png')] group relative">
                 <div className='font-semibold absolute numberRight z-10 text-white text-[200px] opacity-0 group-hover:opacity-100 right-[10%]'>01</div>
                 {/* content(projects) */}
                 <div className='absolute flex flex-col text-white p-8 bottom-[20%]
-                z-10 gap-[1em] transition-all duration-400 left-[10%]'>
+                z-10 gap-[1em] transition-all duration-400 left-[10%] group-hover:scale-[1.08]'>
                     {/* Skills Container */}
                     <div className='flex w-[60%] gap-2.5 flex-wrap'>
                         <img src={html} alt="" className='SkillWidth' />
@@ -41,16 +41,16 @@ const Projects = () => {
                     <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
                         <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin icon"></i></a>
                         <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
                     </div>
                 </div>
             </div>
-            <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project2.png')]">
+            <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project2.png')] ml-30">
                 <div className='font-semibold absolute numberLeft z-10 text-white text-[200px] opacity-0 group-hover:opacity-100'>02</div>
                 {/* content(projects) */}
                 <div className='absolute flex flex-col text-white p-8 bottom-[20%]
-                z-10 gap-[1em] transition-all duration-400 right-[10%]'>
+                z-10 gap-[1em] transition-all duration-400 right-[10%] group-hover:scale-[1.08]'>
                     {/* Skills Container */}
                     <div className='flex w-[60%] gap-2.5 flex-wrap'>
                         <img src={html} alt="" className='SkillWidth'/>
@@ -76,7 +76,7 @@ const Projects = () => {
                 <div className="font-semibold absolute numberRight z-10 text-white text-[200px] opacity-0 group-hover:opacity-100" >03</div>
                 {/* content(projects) */}
                 <div className='absolute flex flex-col text-white p-8 bottom-[20%]
-                z-10 gap-[1em] transition-all duration-400 left-[10%]'>
+                z-10 gap-[1em] transition-all duration-400 left-[10%] group-hover:scale-[1.08]'>
                     {/* Skills Container */}
                     <div className='flex w-[60%] gap-2.5 flex-wrap'>
                         <img src={html} alt="" className='SkillWidth'/>
@@ -91,18 +91,19 @@ const Projects = () => {
                     <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
                         <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin icon"></i></a>
                         <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
                         
                     </div>
                 </div>
             </div>
-            <div className="h-[550px] w-[90%] project bg-cover group bg-no-repeat bg-[url('./Project4.png')]">
+            <div className="h-[550px] w-[90%] group project bg-cover bg-no-repeat bg-[url('./Project4.png')] relative ml-30">
                 <div className="font-semibold absolute numberLeft z-10 text-white text-[200px] opacity-0 group-hover:opacity-100">04</div>
                 {/* content(projects) */}
-                <div>
+                <div className='absolute flex flex-col text-white p-8 bottom-[20%]
+                z-10 gap-[1em] transition-all duration-400 left-[32%] group-hover:scale-[1.08]'>
                     {/* Skills Container */}
-                    <div className='flex '>
+                    <div className='flex w-[60%] gap-2.5 flex-wrap'>
                         <img src={html} alt="" className='SkillWidth'/>
                         <img src={css} alt="" className='SkillWidth'/>
                         <img src={js} alt="" className='SkillWidth'/>
@@ -114,12 +115,12 @@ const Projects = () => {
                         <img src={redux} alt="" className='SkillWidth'/>
                         <img src={Vercel} alt="" className='SkillWidth'/>
                     </div>
-                    <h1>Granit</h1>
-                    <p>A architectural website to plan your building or home (Hebrew Language)</p>
-                    <div>
+                    <h1 className='text-[50px] font-bold leading-[48px]'>Granit</h1>
+                    <p className='w-[70%] text-[16px] italic'>A architectural website to plan your building or home (Hebrew Language)</p>
+                    <div className='flex gap-3 items-center'>
                         <button className="btn-pink">Read More</button>
                         <a href="https://github.com/dibendughosal"><i className="fa-brands fa-github icon"></i></a>
-                        <a href="https://www.linkedin.com/in/dibendughosal/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/dibendughosal/"><i className="fa-brands fa-linkedin"></i></a>
                         <a href="https://dibendughosal.vercel.app/"><i className="fa-solid fa-link icon"></i></a>
                         
                     </div>
