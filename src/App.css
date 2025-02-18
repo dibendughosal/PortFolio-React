@@ -167,7 +167,7 @@
   @apply w-[40px]
 }
 .SkillIcon{
-  @apply w-[100px] h-[100px]
+  @apply h-[80px] hover:scale-[1.2] transition duration-500
 }
 .btn-pink:hover{
   border: none;
@@ -180,4 +180,25 @@
 }
 .greenIcon{
   @apply hover:text-[#53c88c] cursor-pointer  text-[35px]
+}
+.BlobImg{
+  animation: blob 5s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -10;
+}
+
+@keyframes blob {
+
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  10% {
+    transform: translateX(-10%) translateZ(108%);
+  }
+  50% {
+    transform: translateX(-70%) translateY(-20%);
+  }
+  
 }
