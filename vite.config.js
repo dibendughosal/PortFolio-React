@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  base: "/PortFolio-React",
   resolve: {
     alias: {
       "typed.js": "typed.js",
