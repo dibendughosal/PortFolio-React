@@ -18,13 +18,13 @@ const Footer = () => {
           <h2 className="text-white font-bold text-2xl">Connect with me!</h2>
           <div className="flex pl-5 gap-2">
             <a href="https://www.linkedin.com/in/dibendughosal/">
-              <FaLinkedinIn className="text-[35px] text-white"/>
+              <FaLinkedinIn className="text-[35px] text-white rounded bg-blue-400 hover:scale-[1.05]"/>
             </a>
             <a href="https://www.instagram.com/dibendughosal/">
-              <FaInstagram className="text-[35px] text-white" />
+              <FaInstagram className="text-[35px] text-white hover:scale-[1.05]" />
             </a>
             <a href="https://github.com/dibendughosal">     
-                <FaGithub className="text-[35px] text-white hover:text-black hover:bg-white hover:rounded-[50%]"/>
+                <FaGithub className="text-[35px] text-white hover:text-black hover:bg-white hover:rounded-[50%] hover:scale-[1.05]"/>
             </a>
           </div>
         </div>
