@@ -19,8 +19,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/blog" element={<Skills />} />
-            <Route path="*" element={<h1>404 Not Found</h1>} /> 
+            <Route path="/blog" element={<Skills />} /> 
           </Routes>
           <Body />
           <Footer />

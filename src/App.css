@@ -173,16 +173,16 @@
   border: none;
 }
 .icon{
-  @apply hover:text-[#01b7d6] cursor-pointer  text-[35px]
+  @apply hover:text-[#01b7d6] cursor-pointer  text-[35px];
 }
 .iconBlk{
-  @apply hover:text-[#000000] cursor-pointer  text-[35px]
+  @apply hover:text-[#000000] cursor-pointer  text-[35px];
 }
 .greenIcon{
-  @apply hover:text-[#53c88c] cursor-pointer  text-[35px]
+  @apply hover:text-[#53c88c] cursor-pointer  text-[35px];
 }
 .BlobImg{
-  animation: blob 5s linear infinite;
+  animation: blob 10s linear infinite;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -198,7 +198,15 @@
     transform: translateX(-10%) translateZ(108%);
   }
   50% {
-    transform: translateX(-70%) translateY(-20%);
+    transform: translateX(-90%) translateY(-80%);
   }
-  
+  60%{
+    transform: translateY(-80%);
+  }
+  75%{
+    transform: translateX(-80%);
+  }
+}
+.sdw{
+  box-shadow: 2px 2px 10px black;
 }

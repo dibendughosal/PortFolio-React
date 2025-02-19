@@ -10,6 +10,7 @@ const TypingEffect = () => {
         "Full Stack Developer",
         "Web Developer",
         "UI-UX Designer",
+        "Frontend Developer",
         "Backend Developer",
         "Coder",
       ],
